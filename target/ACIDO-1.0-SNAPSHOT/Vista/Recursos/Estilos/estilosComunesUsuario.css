@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Sofia';
+    src: url('./../fuentes/Sofia_Sans_Extra_Condensed/static/SofiaSansExtraCondensed-Regular.ttf') format('truetype'); /* Ruta al archivo de la fuente Tillana */
+}
+
+@font-face {
+    font-family: 'Sofia-bold';
+    src: url('./../fuentes/Sofia_Sans_Extra_Condensed/static/SofiaSansExtraCondensed-Bold.ttf') format('truetype'); /* Ruta al archivo de la fuente Tillana */
+}
+
+
+/*NavBar*/
+.navbar-custom {
+    background-color: #343a40;
+    position: fixed; /* Posición fija para que la barra de navegación esté siempre visible */
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    z-index: 999; /* Z-index alto para que la barra de navegación esté encima de otros elementos */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link-form {
+    padding: 0;
+    margin: 0;
+    height: 100%; /* Ocupa toda la altura de la barra de navegación */
+}
+
+.navbar-custom .nav-link-form input[type="submit"] {
+    background: none;
+    border: none;
+    color: #ffffff;
+    padding: 0 15px;
+    height: 100%; /* Ocupa toda la altura de la barra de navegación */
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 56px; /* Alinea verticalmente el texto */
+    font-size: 18px; /* Tamaño de letra más grande */
+    margin: 0; /* Elimina cualquier margen adicional */
+}
+
+.navbar-custom .nav-link-form input[type="submit"]:hover {
+    background-color: #1f2327;
+    border-color:#1f2327;
+    border-radius:4px;
+
+}
+
+.navbar-brand{
+    background: none;
+    border: none;
+    margin-right: 0px;
+}
+
+/*Boton de administrador*/
+.btn-admin {
+    background-color: #ffd166; /* Amarillo pastel */
+    color: #343a40; /* Color de texto */
+    border-color: #fff3b0; /* Color de borde */
+    font-size: 18px; /* Tamaño de letra más grande */
+    padding:0px;
+    padding: 0 20px; /* Agrega espacio a izquierda y derecha del texto */
+}
+
+.btn-admin:hover {
+    background-color: #e3d898; /* Color de fondo al pasar el ratón */
+    color: #343a40; /* Color de texto al pasar el ratón */
+    border-color: #e3d898; /* Color de borde al pasar el ratón */
+}
+
+.panel-admin-btn {
+    background-color:#ffde59; /* Amarillo pastel */
+    color: #343a40; /* Color de texto */
+    border-color: #ffd166; /* Color de borde */
+    line-height: 56px; /* Alinea verticalmente el texto */
+}
+
+.panel-admin-btn:hover {
+    background-color: buttonface; /* Color de fondo al pasar el ratón */
+    color: #343a40; /* Color de texto al pasar el ratón */
+    border-color: #e3d898; /* Color de borde al pasar el ratón */
+}
+
+/*Botones blancos con hover gris pizarra*/
+.btn-custom {
+    background-color: #f8f9fa;
+    color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-custom:hover {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/*Botones de retroceso*/
+.btn-volver{
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.btn-volver:hover{
+    background-color: #fff3b0;
+    color: #343a40;
+    border: 1px solid #343a40;
+}
+
+/*Botones Call to Action*/
+.btn-action {
+    color: #343a40; /* Color del texto */
+    /*  background-color: #ffd166; /* Color de fondo */
+    background-color:#ffde59;
+    border-color: #ffd166; /* Color del borde */
+}
+
+.btn-action:hover {
+    color: #ffffff; /* Color del texto al pasar el ratón */
+    background-color:  #343a40; /* Color de fondo al pasar el ratón */
+    border-color: #ffffff; /* Color del borde al pasar el ratón */
+}
+
+.btn-action:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 209, 102, 0.5); /* Sombra al enfocar */
+}
+
+/*Mensajes de notificación*/
+.error-message {
+    color: #856404; /* Color del texto amarillo oscuro */
+    padding: 10px; /* Espacio interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Margen inferior */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el fondo del mensaje de error */
+.error-background {
+    background-color: #fff3b0; /* Amarillo pastel */
+}
